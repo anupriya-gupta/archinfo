@@ -23,4 +23,3 @@ def test_register():
     assert register.concretize_unique
     assert register.concrete
     assert register.artificial
-
