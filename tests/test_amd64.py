@@ -66,4 +66,4 @@ def test_keystone_x86_syntax():
 def test_configure_keystone():
     inst_1 = ArchAMD64(endness=Endness.LE)
     nose.tools.assert_is_not_none(inst_1._configure_keystone)
-    # todo
+    
